@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:cmd": "./node_modules/.bin/esbuild src/index.jsx --bundle --outfile=dist/cmd/main.js",
-    "serve": "serve ./dist"
+    "serve": "serve ./dist",
+    "build:api": "node ./src/build.js"
   },
   "repository": {
     "type": "git",
