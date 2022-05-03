@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:cmd": "./node_modules/.bin/esbuild src/index.jsx --bundle --outfile=dist/cmd/main.js",
     "serve": "serve ./dist",
-    "build:api": "node ./src/build.js"
+    "build:api": "node ./src/build.js",
+    "transform:api": "node ./src/transform.js"
   },
   "repository": {
     "type": "git",

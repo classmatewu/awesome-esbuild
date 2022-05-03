@@ -6,6 +6,10 @@
 * pnpm serve
 * 0.0.0.0:randomPort/cmd/
 
-## API
+## Build API
 * pnpm build:api
 * 0.0.0.0:8099/api/
+
+## Transform API
+* pnpm transform:api
+* 仔细观察终端的输出
