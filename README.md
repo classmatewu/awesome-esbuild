@@ -4,9 +4,8 @@
 ## CMD
 * pnpm build:cmd
 * pnpm serve
-* 0.0.0.0:port/cmd/
+* 0.0.0.0:randomPort/cmd/
 
 ## API
 * pnpm build:api
-* pnpm serve
-* 0.0.0.0:port/api/
+* 0.0.0.0:8099/api/

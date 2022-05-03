@@ -8,7 +8,7 @@ const HelloWorldSSR = () => <h1>Hello World!</h1>;
 console.log(Server.renderToString(<HelloWorldSSR />));
 
 // CSR
-const HelloWorldCSR = <h1>Hello World!</h1>;
+const HelloWorldCSR = <h1>Hello World!!!</h1>;
 
 // React 17
 // ReactDOM.createRoot(<HelloWorld />, document.querySelector("#app"));
